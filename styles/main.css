@@ -93,32 +93,32 @@ header,main,footer{
 	max-width:1200px;
 	box-sizing:border-box;
 	padding:15px;
-	background-color:#26EFCC;
+	margin:0px auto;
+	display:grid;
+	grid-template-columns:repeat(5,1fr);
+	gap:15px;
 }
-
-.list_product{
-	border:1px solid black;
-	display:inline-block;
+.wrapper_product{
+	max-width:200px;
+	display:flex;
+	justify-content:center;
+	margin:0px auto;
+	background-color:#26EFCC;
+	flex-direction:column;
+	align-items:center;
+	border:2px solid black;
 	padding:5px;
 	box-sizing:border-box;
-	margin:0px auto;
-	background-color:#97B0F2;
-}
-.name_product{
-	text-align:center;
-	padding:5px;
-}
-.wrapper_price_but{
-	text-align:center;
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
+	gap:10px;
 }
 .footer_service{
-	max-width:1200px;
-	background-color:#1572AB;
-	box-sizing:border-box;
-	
+	text-align:center;
+	background-color:#26EFCC;
+	display:flex;
+	justify-content:center;
+	margin:0px auto;
 }
+
+
 
 
